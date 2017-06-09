@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F246BCF51EEAA412007C3542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BCF41EEAA412007C3542 /* main.m */; };
+		F246BCF81EEAA412007C3542 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BCF71EEAA412007C3542 /* AppDelegate.m */; };
+		F246BCFB1EEAA412007C3542 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BCFA1EEAA412007C3542 /* ViewController.m */; };
+		F246BCFE1EEAA412007C3542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F246BCFC1EEAA412007C3542 /* Main.storyboard */; };
+		F246BD001EEAA412007C3542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F246BCFF1EEAA412007C3542 /* Assets.xcassets */; };
+		F246BD031EEAA412007C3542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F246BD011EEAA412007C3542 /* LaunchScreen.storyboard */; };
+		F246BD0E1EEAA412007C3542 /* __MBProgressHUD_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BD0D1EEAA412007C3542 /* __MBProgressHUD_____Tests.m */; };
+		F246BD191EEAA412007C3542 /* __MBProgressHUD_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BD181EEAA412007C3542 /* __MBProgressHUD_____UITests.m */; };
+		F246BD281EEAA4AA007C3542 /* MBProgressHUD+XB_HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BD271EEAA4AA007C3542 /* MBProgressHUD+XB_HUD.m */; };
+		F246BD2E1EEAA4BB007C3542 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BD2B1EEAA4BB007C3542 /* MBProgressHUD.m */; };
+		F246BD2F1EEAA4BB007C3542 /* MCHub.m in Sources */ = {isa = PBXBuildFile; fileRef = F246BD2D1EEAA4BB007C3542 /* MCHub.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F246BD0A1EEAA412007C3542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F246BCE81EEAA412007C3542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F246BCEF1EEAA412007C3542;
+			remoteInfo = "基于MBProgressHUD的二次封装";
+		};
+		F246BD151EEAA412007C3542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F246BCE81EEAA412007C3542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F246BCEF1EEAA412007C3542;
+			remoteInfo = "基于MBProgressHUD的二次封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F246BCF01EEAA412007C3542 /* 基于MBProgressHUD的二次封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基于MBProgressHUD的二次封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F246BCF41EEAA412007C3542 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F246BCF61EEAA412007C3542 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F246BCF71EEAA412007C3542 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F246BCF91EEAA412007C3542 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F246BCFA1EEAA412007C3542 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F246BCFD1EEAA412007C3542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F246BCFF1EEAA412007C3542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F246BD021EEAA412007C3542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F246BD041EEAA412007C3542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F246BD091EEAA412007C3542 /* 基于MBProgressHUD的二次封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基于MBProgressHUD的二次封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F246BD0D1EEAA412007C3542 /* __MBProgressHUD_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__MBProgressHUD_____Tests.m"; sourceTree = "<group>"; };
+		F246BD0F1EEAA412007C3542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F246BD141EEAA412007C3542 /* 基于MBProgressHUD的二次封装UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基于MBProgressHUD的二次封装UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F246BD181EEAA412007C3542 /* __MBProgressHUD_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__MBProgressHUD_____UITests.m"; sourceTree = "<group>"; };
+		F246BD1A1EEAA412007C3542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F246BD261EEAA4AA007C3542 /* MBProgressHUD+XB_HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XB_HUD.h"; sourceTree = "<group>"; };
+		F246BD271EEAA4AA007C3542 /* MBProgressHUD+XB_HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XB_HUD.m"; sourceTree = "<group>"; };
+		F246BD2A1EEAA4BB007C3542 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F246BD2B1EEAA4BB007C3542 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F246BD2C1EEAA4BB007C3542 /* MCHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHub.h; sourceTree = "<group>"; };
+		F246BD2D1EEAA4BB007C3542 /* MCHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHub.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F246BCED1EEAA412007C3542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246BD061EEAA412007C3542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246BD111EEAA412007C3542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F246BCE71EEAA412007C3542 = {
+			isa = PBXGroup;
+			children = (
+				F246BCF21EEAA412007C3542 /* 基于MBProgressHUD的二次封装 */,
+				F246BD0C1EEAA412007C3542 /* 基于MBProgressHUD的二次封装Tests */,
+				F246BD171EEAA412007C3542 /* 基于MBProgressHUD的二次封装UITests */,
+				F246BCF11EEAA412007C3542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F246BCF11EEAA412007C3542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F246BCF01EEAA412007C3542 /* 基于MBProgressHUD的二次封装.app */,
+				F246BD091EEAA412007C3542 /* 基于MBProgressHUD的二次封装Tests.xctest */,
+				F246BD141EEAA412007C3542 /* 基于MBProgressHUD的二次封装UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F246BCF21EEAA412007C3542 /* 基于MBProgressHUD的二次封装 */ = {
+			isa = PBXGroup;
+			children = (
+				F246BD291EEAA4BB007C3542 /* MBProgressHUD */,
+				F246BD261EEAA4AA007C3542 /* MBProgressHUD+XB_HUD.h */,
+				F246BD271EEAA4AA007C3542 /* MBProgressHUD+XB_HUD.m */,
+				F246BCF61EEAA412007C3542 /* AppDelegate.h */,
+				F246BCF71EEAA412007C3542 /* AppDelegate.m */,
+				F246BCF91EEAA412007C3542 /* ViewController.h */,
+				F246BCFA1EEAA412007C3542 /* ViewController.m */,
+				F246BCFC1EEAA412007C3542 /* Main.storyboard */,
+				F246BCFF1EEAA412007C3542 /* Assets.xcassets */,
+				F246BD011EEAA412007C3542 /* LaunchScreen.storyboard */,
+				F246BD041EEAA412007C3542 /* Info.plist */,
+				F246BCF31EEAA412007C3542 /* Supporting Files */,
+			);
+			path = "基于MBProgressHUD的二次封装";
+			sourceTree = "<group>";
+		};
+		F246BCF31EEAA412007C3542 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F246BCF41EEAA412007C3542 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F246BD0C1EEAA412007C3542 /* 基于MBProgressHUD的二次封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F246BD0D1EEAA412007C3542 /* __MBProgressHUD_____Tests.m */,
+				F246BD0F1EEAA412007C3542 /* Info.plist */,
+			);
+			path = "基于MBProgressHUD的二次封装Tests";
+			sourceTree = "<group>";
+		};
+		F246BD171EEAA412007C3542 /* 基于MBProgressHUD的二次封装UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F246BD181EEAA412007C3542 /* __MBProgressHUD_____UITests.m */,
+				F246BD1A1EEAA412007C3542 /* Info.plist */,
+			);
+			path = "基于MBProgressHUD的二次封装UITests";
+			sourceTree = "<group>";
+		};
+		F246BD291EEAA4BB007C3542 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F246BD2A1EEAA4BB007C3542 /* MBProgressHUD.h */,
+				F246BD2B1EEAA4BB007C3542 /* MBProgressHUD.m */,
+				F246BD2C1EEAA4BB007C3542 /* MCHub.h */,
+				F246BD2D1EEAA4BB007C3542 /* MCHub.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F246BCEF1EEAA412007C3542 /* 基于MBProgressHUD的二次封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F246BD1D1EEAA412007C3542 /* Build configuration list for PBXNativeTarget "基于MBProgressHUD的二次封装" */;
+			buildPhases = (
+				F246BCEC1EEAA412007C3542 /* Sources */,
+				F246BCED1EEAA412007C3542 /* Frameworks */,
+				F246BCEE1EEAA412007C3542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "基于MBProgressHUD的二次封装";
+			productName = "基于MBProgressHUD的二次封装";
+			productReference = F246BCF01EEAA412007C3542 /* 基于MBProgressHUD的二次封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F246BD081EEAA412007C3542 /* 基于MBProgressHUD的二次封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F246BD201EEAA412007C3542 /* Build configuration list for PBXNativeTarget "基于MBProgressHUD的二次封装Tests" */;
+			buildPhases = (
+				F246BD051EEAA412007C3542 /* Sources */,
+				F246BD061EEAA412007C3542 /* Frameworks */,
+				F246BD071EEAA412007C3542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F246BD0B1EEAA412007C3542 /* PBXTargetDependency */,
+			);
+			name = "基于MBProgressHUD的二次封装Tests";
+			productName = "基于MBProgressHUD的二次封装Tests";
+			productReference = F246BD091EEAA412007C3542 /* 基于MBProgressHUD的二次封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F246BD131EEAA412007C3542 /* 基于MBProgressHUD的二次封装UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F246BD231EEAA412007C3542 /* Build configuration list for PBXNativeTarget "基于MBProgressHUD的二次封装UITests" */;
+			buildPhases = (
+				F246BD101EEAA412007C3542 /* Sources */,
+				F246BD111EEAA412007C3542 /* Frameworks */,
+				F246BD121EEAA412007C3542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F246BD161EEAA412007C3542 /* PBXTargetDependency */,
+			);
+			name = "基于MBProgressHUD的二次封装UITests";
+			productName = "基于MBProgressHUD的二次封装UITests";
+			productReference = F246BD141EEAA412007C3542 /* 基于MBProgressHUD的二次封装UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F246BCE81EEAA412007C3542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mr Liu";
+				TargetAttributes = {
+					F246BCEF1EEAA412007C3542 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F246BD081EEAA412007C3542 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F246BCEF1EEAA412007C3542;
+					};
+					F246BD131EEAA412007C3542 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F246BCEF1EEAA412007C3542;
+					};
+				};
+			};
+			buildConfigurationList = F246BCEB1EEAA412007C3542 /* Build configuration list for PBXProject "基于MBProgressHUD的二次封装" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F246BCE71EEAA412007C3542;
+			productRefGroup = F246BCF11EEAA412007C3542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F246BCEF1EEAA412007C3542 /* 基于MBProgressHUD的二次封装 */,
+				F246BD081EEAA412007C3542 /* 基于MBProgressHUD的二次封装Tests */,
+				F246BD131EEAA412007C3542 /* 基于MBProgressHUD的二次封装UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F246BCEE1EEAA412007C3542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F246BD031EEAA412007C3542 /* LaunchScreen.storyboard in Resources */,
+				F246BD001EEAA412007C3542 /* Assets.xcassets in Resources */,
+				F246BCFE1EEAA412007C3542 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246BD071EEAA412007C3542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246BD121EEAA412007C3542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F246BCEC1EEAA412007C3542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F246BCFB1EEAA412007C3542 /* ViewController.m in Sources */,
+				F246BCF81EEAA412007C3542 /* AppDelegate.m in Sources */,
+				F246BD2E1EEAA4BB007C3542 /* MBProgressHUD.m in Sources */,
+				F246BD2F1EEAA4BB007C3542 /* MCHub.m in Sources */,
+				F246BCF51EEAA412007C3542 /* main.m in Sources */,
+				F246BD281EEAA4AA007C3542 /* MBProgressHUD+XB_HUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246BD051EEAA412007C3542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F246BD0E1EEAA412007C3542 /* __MBProgressHUD_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246BD101EEAA412007C3542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F246BD191EEAA412007C3542 /* __MBProgressHUD_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F246BD0B1EEAA412007C3542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F246BCEF1EEAA412007C3542 /* 基于MBProgressHUD的二次封装 */;
+			targetProxy = F246BD0A1EEAA412007C3542 /* PBXContainerItemProxy */;
+		};
+		F246BD161EEAA412007C3542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F246BCEF1EEAA412007C3542 /* 基于MBProgressHUD的二次封装 */;
+			targetProxy = F246BD151EEAA412007C3542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F246BCFC1EEAA412007C3542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F246BCFD1EEAA412007C3542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F246BD011EEAA412007C3542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F246BD021EEAA412007C3542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F246BD1B1EEAA412007C3542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F246BD1C1EEAA412007C3542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F246BD1E1EEAA412007C3542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "基于MBProgressHUD的二次封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.--MBProgressHUD-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F246BD1F1EEAA412007C3542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "基于MBProgressHUD的二次封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.--MBProgressHUD-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F246BD211EEAA412007C3542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "基于MBProgressHUD的二次封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.--MBProgressHUD-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于MBProgressHUD的二次封装.app/基于MBProgressHUD的二次封装";
+			};
+			name = Debug;
+		};
+		F246BD221EEAA412007C3542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "基于MBProgressHUD的二次封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.--MBProgressHUD-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于MBProgressHUD的二次封装.app/基于MBProgressHUD的二次封装";
+			};
+			name = Release;
+		};
+		F246BD241EEAA412007C3542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "基于MBProgressHUD的二次封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.--MBProgressHUD-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基于MBProgressHUD的二次封装";
+			};
+			name = Debug;
+		};
+		F246BD251EEAA412007C3542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "基于MBProgressHUD的二次封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSSL.--MBProgressHUD-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基于MBProgressHUD的二次封装";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F246BCEB1EEAA412007C3542 /* Build configuration list for PBXProject "基于MBProgressHUD的二次封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F246BD1B1EEAA412007C3542 /* Debug */,
+				F246BD1C1EEAA412007C3542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F246BD1D1EEAA412007C3542 /* Build configuration list for PBXNativeTarget "基于MBProgressHUD的二次封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F246BD1E1EEAA412007C3542 /* Debug */,
+				F246BD1F1EEAA412007C3542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F246BD201EEAA412007C3542 /* Build configuration list for PBXNativeTarget "基于MBProgressHUD的二次封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F246BD211EEAA412007C3542 /* Debug */,
+				F246BD221EEAA412007C3542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F246BD231EEAA412007C3542 /* Build configuration list for PBXNativeTarget "基于MBProgressHUD的二次封装UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F246BD241EEAA412007C3542 /* Debug */,
+				F246BD251EEAA412007C3542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F246BCE81EEAA412007C3542 /* Project object */;
+}
